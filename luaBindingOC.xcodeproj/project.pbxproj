@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B2A5621D80042100199ADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2A5611D80042100199ADE /* main.m */; };
+		04B2A5651D80042100199ADE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2A5641D80042100199ADE /* AppDelegate.m */; };
+		04B2A5681D80042100199ADE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2A5671D80042100199ADE /* ViewController.m */; };
+		04B2A56B1D80042100199ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2A5691D80042100199ADE /* Main.storyboard */; };
+		04B2A56D1D80042100199ADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B2A56C1D80042100199ADE /* Assets.xcassets */; };
+		04B2A5701D80042100199ADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2A56E1D80042100199ADE /* LaunchScreen.storyboard */; };
+		04B2A57B1D80042200199ADE /* luaBindingOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2A57A1D80042200199ADE /* luaBindingOCTests.m */; };
+		04B2A5861D80042200199ADE /* luaBindingOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2A5851D80042200199ADE /* luaBindingOCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B2A5771D80042100199ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2A5551D80042100199ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B2A55C1D80042100199ADE;
+			remoteInfo = luaBindingOC;
+		};
+		04B2A5821D80042200199ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2A5551D80042100199ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B2A55C1D80042100199ADE;
+			remoteInfo = luaBindingOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B2A55D1D80042100199ADE /* luaBindingOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luaBindingOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B2A5611D80042100199ADE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B2A5631D80042100199ADE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B2A5641D80042100199ADE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B2A5661D80042100199ADE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B2A5671D80042100199ADE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B2A56A1D80042100199ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B2A56C1D80042100199ADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B2A56F1D80042100199ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B2A5711D80042100199ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B2A5761D80042100199ADE /* luaBindingOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luaBindingOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B2A57A1D80042200199ADE /* luaBindingOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = luaBindingOCTests.m; sourceTree = "<group>"; };
+		04B2A57C1D80042200199ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B2A5811D80042200199ADE /* luaBindingOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luaBindingOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B2A5851D80042200199ADE /* luaBindingOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = luaBindingOCUITests.m; sourceTree = "<group>"; };
+		04B2A5871D80042200199ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B2A55A1D80042100199ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2A5731D80042100199ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2A57E1D80042200199ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B2A5541D80042100199ADE = {
+			isa = PBXGroup;
+			children = (
+				04B2A55F1D80042100199ADE /* luaBindingOC */,
+				04B2A5791D80042200199ADE /* luaBindingOCTests */,
+				04B2A5841D80042200199ADE /* luaBindingOCUITests */,
+				04B2A55E1D80042100199ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B2A55E1D80042100199ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B2A55D1D80042100199ADE /* luaBindingOC.app */,
+				04B2A5761D80042100199ADE /* luaBindingOCTests.xctest */,
+				04B2A5811D80042200199ADE /* luaBindingOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B2A55F1D80042100199ADE /* luaBindingOC */ = {
+			isa = PBXGroup;
+			children = (
+				04B2A5631D80042100199ADE /* AppDelegate.h */,
+				04B2A5641D80042100199ADE /* AppDelegate.m */,
+				04B2A5661D80042100199ADE /* ViewController.h */,
+				04B2A5671D80042100199ADE /* ViewController.m */,
+				04B2A5691D80042100199ADE /* Main.storyboard */,
+				04B2A56C1D80042100199ADE /* Assets.xcassets */,
+				04B2A56E1D80042100199ADE /* LaunchScreen.storyboard */,
+				04B2A5711D80042100199ADE /* Info.plist */,
+				04B2A5601D80042100199ADE /* Supporting Files */,
+			);
+			path = luaBindingOC;
+			sourceTree = "<group>";
+		};
+		04B2A5601D80042100199ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B2A5611D80042100199ADE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B2A5791D80042200199ADE /* luaBindingOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B2A57A1D80042200199ADE /* luaBindingOCTests.m */,
+				04B2A57C1D80042200199ADE /* Info.plist */,
+			);
+			path = luaBindingOCTests;
+			sourceTree = "<group>";
+		};
+		04B2A5841D80042200199ADE /* luaBindingOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B2A5851D80042200199ADE /* luaBindingOCUITests.m */,
+				04B2A5871D80042200199ADE /* Info.plist */,
+			);
+			path = luaBindingOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B2A55C1D80042100199ADE /* luaBindingOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B2A58A1D80042200199ADE /* Build configuration list for PBXNativeTarget "luaBindingOC" */;
+			buildPhases = (
+				04B2A5591D80042100199ADE /* Sources */,
+				04B2A55A1D80042100199ADE /* Frameworks */,
+				04B2A55B1D80042100199ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = luaBindingOC;
+			productName = luaBindingOC;
+			productReference = 04B2A55D1D80042100199ADE /* luaBindingOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B2A5751D80042100199ADE /* luaBindingOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B2A58D1D80042200199ADE /* Build configuration list for PBXNativeTarget "luaBindingOCTests" */;
+			buildPhases = (
+				04B2A5721D80042100199ADE /* Sources */,
+				04B2A5731D80042100199ADE /* Frameworks */,
+				04B2A5741D80042100199ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B2A5781D80042100199ADE /* PBXTargetDependency */,
+			);
+			name = luaBindingOCTests;
+			productName = luaBindingOCTests;
+			productReference = 04B2A5761D80042100199ADE /* luaBindingOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B2A5801D80042200199ADE /* luaBindingOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B2A5901D80042200199ADE /* Build configuration list for PBXNativeTarget "luaBindingOCUITests" */;
+			buildPhases = (
+				04B2A57D1D80042200199ADE /* Sources */,
+				04B2A57E1D80042200199ADE /* Frameworks */,
+				04B2A57F1D80042200199ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B2A5831D80042200199ADE /* PBXTargetDependency */,
+			);
+			name = luaBindingOCUITests;
+			productName = luaBindingOCUITests;
+			productReference = 04B2A5811D80042200199ADE /* luaBindingOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B2A5551D80042100199ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04B2A55C1D80042100199ADE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04B2A5751D80042100199ADE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04B2A55C1D80042100199ADE;
+					};
+					04B2A5801D80042200199ADE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04B2A55C1D80042100199ADE;
+					};
+				};
+			};
+			buildConfigurationList = 04B2A5581D80042100199ADE /* Build configuration list for PBXProject "luaBindingOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B2A5541D80042100199ADE;
+			productRefGroup = 04B2A55E1D80042100199ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B2A55C1D80042100199ADE /* luaBindingOC */,
+				04B2A5751D80042100199ADE /* luaBindingOCTests */,
+				04B2A5801D80042200199ADE /* luaBindingOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B2A55B1D80042100199ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2A5701D80042100199ADE /* LaunchScreen.storyboard in Resources */,
+				04B2A56D1D80042100199ADE /* Assets.xcassets in Resources */,
+				04B2A56B1D80042100199ADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2A5741D80042100199ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2A57F1D80042200199ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B2A5591D80042100199ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2A5681D80042100199ADE /* ViewController.m in Sources */,
+				04B2A5651D80042100199ADE /* AppDelegate.m in Sources */,
+				04B2A5621D80042100199ADE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2A5721D80042100199ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2A57B1D80042200199ADE /* luaBindingOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2A57D1D80042200199ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2A5861D80042200199ADE /* luaBindingOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B2A5781D80042100199ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B2A55C1D80042100199ADE /* luaBindingOC */;
+			targetProxy = 04B2A5771D80042100199ADE /* PBXContainerItemProxy */;
+		};
+		04B2A5831D80042200199ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B2A55C1D80042100199ADE /* luaBindingOC */;
+			targetProxy = 04B2A5821D80042200199ADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B2A5691D80042100199ADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B2A56A1D80042100199ADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B2A56E1D80042100199ADE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B2A56F1D80042100199ADE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B2A5881D80042200199ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B2A5891D80042200199ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B2A58B1D80042200199ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = luaBindingOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boyaa.luaBindingOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B2A58C1D80042200199ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = luaBindingOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boyaa.luaBindingOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04B2A58E1D80042200199ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = luaBindingOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boyaa.luaBindingOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luaBindingOC.app/luaBindingOC";
+			};
+			name = Debug;
+		};
+		04B2A58F1D80042200199ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = luaBindingOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boyaa.luaBindingOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luaBindingOC.app/luaBindingOC";
+			};
+			name = Release;
+		};
+		04B2A5911D80042200199ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = luaBindingOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boyaa.luaBindingOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = luaBindingOC;
+			};
+			name = Debug;
+		};
+		04B2A5921D80042200199ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = luaBindingOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boyaa.luaBindingOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = luaBindingOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B2A5581D80042100199ADE /* Build configuration list for PBXProject "luaBindingOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B2A5881D80042200199ADE /* Debug */,
+				04B2A5891D80042200199ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B2A58A1D80042200199ADE /* Build configuration list for PBXNativeTarget "luaBindingOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B2A58B1D80042200199ADE /* Debug */,
+				04B2A58C1D80042200199ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04B2A58D1D80042200199ADE /* Build configuration list for PBXNativeTarget "luaBindingOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B2A58E1D80042200199ADE /* Debug */,
+				04B2A58F1D80042200199ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04B2A5901D80042200199ADE /* Build configuration list for PBXNativeTarget "luaBindingOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B2A5911D80042200199ADE /* Debug */,
+				04B2A5921D80042200199ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B2A5551D80042100199ADE /* Project object */;
+}
